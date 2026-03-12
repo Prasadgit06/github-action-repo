@@ -20,5 +20,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: version of python and docker
-        run: docker --verison && nginx --version && sudo systemctl status docker
+        run: docker --version && nginx --version && sudo systemctl status docker
   
