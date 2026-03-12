@@ -15,4 +15,10 @@ jobs:
 
       - name: commit the yml to repo
         run: echo "commited successfully"
+
+  details:
+    runs-on: ubuntu-latest
+    steps:
+      - name: version of python and docker
+        run: docker --verison && nginx --version && sudo systemctl status docker
   
