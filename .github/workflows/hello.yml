@@ -20,5 +20,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: version of python and docker
-        run: docker --version && nginx --version 
+        run: docker --version
   
