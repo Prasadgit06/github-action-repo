@@ -1,0 +1,18 @@
+# This is the workflow name
+name: Hello workflow
+
+on:
+  push:
+    branches: [main]
+
+#these are the jobs in the workflows
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: say hello to user
+        run: echo "hello Dosto"
+
+      - name: commit the yml to repo
+        run: echo "commited successfully"
+  
